@@ -1,6 +1,6 @@
 ## AutoResizeImage
 
-Language: English| [中文简体]()
+Language: English| [中文简体](https://github.com/BigTimo/auto_resize_image/blob/master/README_ZH.md)
 
 Automatically resize the cached `ResizeImage` based on the size of the `widget`.
 

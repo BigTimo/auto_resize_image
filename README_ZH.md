@@ -1,6 +1,6 @@
 ## AutoResizeImage
 
-文档语言: [English]() | 中文简体
+文档语言: [English](https://github.com/BigTimo/auto_resize_image/blob/master/README.md) | 中文简体
 
 根据`widget`的大小，自动调整图片的缓存的`ResizeImage`
 
