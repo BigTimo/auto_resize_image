@@ -1,5 +1,7 @@
 ## AutoResizeImage
 
+[![pub package](https://img.shields.io/pub/v/auto_resize_image.svg)](https://pub.dartlang.org/packages/auto_resize_image)
+
 Language: English| [中文简体](https://github.com/BigTimo/auto_resize_image/blob/master/README_ZH.md)
 
 Automatically adjust the image cache size based on the size of the widget.
@@ -18,7 +20,7 @@ Supports [CachedNetworkImageProvider](https://pub.dev/packages/cached_network_im
 
 ## Usage
 
-
+[![pub package](https://img.shields.io/pub/v/auto_resize_image.svg)](https://pub.dartlang.org/packages/auto_resize_image)
 
 ```dart
 auto_resize_image:1.0.0

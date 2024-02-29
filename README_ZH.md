@@ -1,4 +1,5 @@
 ## AutoResizeImage
+[![pub package](https://img.shields.io/pub/v/auto_resize_image.svg)](https://pub.dartlang.org/packages/auto_resize_image)
 
 文档语言: [English](https://github.com/BigTimo/auto_resize_image/blob/master/README.md) | 中文简体
 
@@ -20,7 +21,7 @@
 
 ## 使用
 
-
+[![pub package](https://img.shields.io/pub/v/auto_resize_image.svg)](https://pub.dartlang.org/packages/auto_resize_image)
 
 ```dart
 auto_resize_image:1.0.0
