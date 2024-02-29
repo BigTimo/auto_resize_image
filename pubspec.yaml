@@ -1,6 +1,6 @@
 name: auto_resize_image
 description: Automatically adjust the image cache size based on the size of the widget.
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/BigTimo/auto_resize_image
 
 environment:
