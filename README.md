@@ -2,7 +2,7 @@
 
 Language: English| [中文简体](https://github.com/BigTimo/auto_resize_image/blob/master/README_ZH.md)
 
-Automatically resize the cached `ResizeImage` based on the size of the `widget`.
+Automatically adjust the image cache size based on the size of the widget.
 
 
 
@@ -53,6 +53,6 @@ The green box represents the size of the widget, while the red box represents th
 
 | ResizeMode |                         Illustration                         | Clarity/Memory Usage | Oversized |
 | :--------: | :----------------------------------------------------------: | :------------------: | :-------: |
-|  contain   | <img src="https://s2.loli.net/2024/02/28/27lijdrHDCFOkY1.jpg" alt="20240227_165632.jpg" style="zoom:25%;" /> |         Low          |    No     |
-|  balance   | <img src="https://s2.loli.net/2024/02/28/ySYTuAZ1vXoFHib.jpg" alt="20240227_165706.jpg" style="zoom:25%;" /> |        Medium        |    No     |
-|   cover    | <img src="https://s2.loli.net/2024/02/28/5mV6fMKj8GigFzv.jpg" alt="20240227_165733.jpg" style="zoom:20%;" /> |         High         |    Yes    |
+|  contain   | <img src="https://s2.loli.net/2024/02/29/Bxd35DU7srAGCYE.jpg" style="zoom:50%;" /> |         Low          |    No     |
+|  balance   | <img src="https://s2.loli.net/2024/02/29/qgHuBwLUPoIka9Y.jpg" alt="20240227_165706.jpg" style="zoom: 50%;" /> |        Medium        |    No     |
+|   cover    | <img src="https://s2.loli.net/2024/02/29/73u2KOWmzPtI5jR.jpg" alt="20240227_165733.jpg" style="zoom: 50%;" /> |         High         |    Yes    |

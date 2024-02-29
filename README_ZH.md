@@ -2,7 +2,7 @@
 
 文档语言: [English](https://github.com/BigTimo/auto_resize_image/blob/master/README.md) | 中文简体
 
-根据`widget`的大小，自动调整图片的缓存的`ResizeImage`
+根据widget的大小自动调整图片缓存大小
 
 
 
@@ -55,7 +55,7 @@ SizedBox(
 
 | ResizeMode |                             图示                             | 清晰度/内存占用 | Oversized |
 | :--------: | :----------------------------------------------------------: | :-------------: | :-------: |
-|  contain   | <img src="https://s2.loli.net/2024/02/28/27lijdrHDCFOkY1.jpg" alt="20240227_165632.jpg" style="zoom:25%;" /> |       低        |    否     |
-|  balance   | <img src="https://s2.loli.net/2024/02/28/ySYTuAZ1vXoFHib.jpg" alt="20240227_165706.jpg" style="zoom:25%;" /> |       中        |    否     |
-|   cover    | <img src="https://s2.loli.net/2024/02/28/5mV6fMKj8GigFzv.jpg" alt="20240227_165733.jpg" style="zoom:20%;" /> |       高        |    是     |
+|  contain   | <img src="https://s2.loli.net/2024/02/29/Bxd35DU7srAGCYE.jpg" style="zoom:50%;" /> |       低        |    否     |
+|  balance   | <img src="https://s2.loli.net/2024/02/29/qgHuBwLUPoIka9Y.jpg" alt="20240227_165706.jpg" style="zoom: 50%;" /> |       中        |    否     |
+|   cover    | <img src="https://s2.loli.net/2024/02/29/73u2KOWmzPtI5jR.jpg" alt="20240227_165733.jpg" style="zoom: 50%;" /> |       高        |    是     |
 
