@@ -37,7 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.2
 
 
-  cached_network_image: 3.2.3
+  cached_network_image: 3.3.1
   auto_resize_image:
     path: ../
 

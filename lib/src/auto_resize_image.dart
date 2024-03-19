@@ -95,7 +95,20 @@ class AutoResizeImage extends ImageProvider<AutoResizeImageKey> {
     if (!kReleaseMode) {
       completer.debugLabel = '${completer.debugLabel} - Resized(${key._width}×${key._height})';
     }
+    _configureErrorListener(completer, key);
     return completer;
+  }
+
+  void _configureErrorListener(ImageStreamCompleter completer, Object key) {
+    completer.addEphemeralErrorListener((Object exception, StackTrace? stackTrace) {
+      // The microtask is scheduled because of the same reason as NetworkImage:
+      // Depending on where the exception was thrown, the image cache may not
+      // have had a chance to track the key in the cache at all.
+      // Schedule a microtask to give the cache a chance to add the key.
+      scheduleMicrotask(() {
+        PaintingBinding.instance.imageCache.evict(key);
+      });
+    });
   }
 
   Size _resize(ImageDescriptor descriptor) {
@@ -106,6 +119,13 @@ class AutoResizeImage extends ImageProvider<AutoResizeImageKey> {
     int imageWidth = descriptor.width;
     int imageHeight = descriptor.height;
     double imageAspectRatio = imageWidth / imageHeight;
+
+    if (displayHeight == double.infinity) {
+      displayHeight = displayWidth / imageAspectRatio;
+    }
+    if (displayWidth == double.infinity) {
+      displayWidth = displayHeight * imageAspectRatio;
+    }
 
     double targetWidth;
     double targetHeight;
