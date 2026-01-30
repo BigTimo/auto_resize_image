@@ -1,3 +1,8 @@
+## 1.0.4
+
+- Update: Migrate `AutoResizeImage` to use `loadImage` and `ImageDecoderCallback` (replacing deprecated `loadBuffer`)
+- Update: Readme update
+
 ## 1.0.3
 
 - Fix:Unable to reload failed image

@@ -16,7 +16,7 @@ Supports [CachedNetworkImageProvider](https://pub.dev/packages/cached_network_im
 
 | debugInvertOversizedImages = false                           | debugInvertOversizedImages = true                            |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| <img src="https://s2.loli.net/2024/02/28/aKPEl37huXGHSez.jpg" alt="Screenshot_20240227-183452.jpg" style="zoom:25%;" /> | <img src="https://s2.loli.net/2024/02/28/UGHqMsncfS4FAJO.jpg" alt="Screenshot_20240228-095622.jpg" style="zoom:25%;" /> |
+| <img src="https://github.com/BigTimo/auto_resize_image/blob/master/img/oversize_false.jpg?raw=true" style="zoom:25%;" /> | <img src="https://github.com/BigTimo/auto_resize_image/blob/master/img/oversize_true.jpg?raw=true" style="zoom:25%;" /> |
 
 ## Usage
 
@@ -55,6 +55,6 @@ The green box represents the size of the widget, while the red box represents th
 
 | ResizeMode |                         Illustration                         | Clarity/Memory Usage | Oversized |
 | :--------: | :----------------------------------------------------------: | :------------------: | :-------: |
-|  contain   | <img src="https://s2.loli.net/2024/02/29/Bxd35DU7srAGCYE.jpg" style="zoom:50%;" /> |         Low          |    No     |
-|  balance   | <img src="https://s2.loli.net/2024/02/29/qgHuBwLUPoIka9Y.jpg" alt="20240227_165706.jpg" style="zoom: 50%;" /> |        Medium        |    No     |
-|   cover    | <img src="https://s2.loli.net/2024/02/29/73u2KOWmzPtI5jR.jpg" alt="20240227_165733.jpg" style="zoom: 50%;" /> |         High         |    Yes    |
+|  contain   | <img src="https://github.com/BigTimo/auto_resize_image/blob/master/img/contain.jpg?raw=true" style="zoom:50%;" /> |         Low          |    No     |
+|  balance   | <img src="https://github.com/BigTimo/auto_resize_image/blob/master/img/balance.jpg?raw=true" alt="20240227_165706.jpg" style="zoom: 50%;" /> |        Medium        |    No     |
+|   cover    | <img src="https://github.com/BigTimo/auto_resize_image/blob/master/img/cover.jpg?raw=true" style="zoom: 50%;" /> |         High         |    Yes    |
